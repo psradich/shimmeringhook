@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-purple: #A855F7;
+  --color-brand-teal: #48C9B0;
+  --color-brand-yellow: #FFD166;
+  --color-brand-bg: #FAF5FF;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: #2D3748;
+}
